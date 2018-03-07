@@ -16,7 +16,7 @@ export default {
         if (!node.data.staticClass) {
           node.data.staticClass = 'mdc-toolbar__menu-icon'
         } else if (!node.data.staticClass.includes('mdc-toolbar__menu-icon')) {
-          node.data.staticClass = 'mdc-toolbar__menu-icon'
+          node.data.staticClass += ' mdc-toolbar__menu-icon'
         }
       })
     }
@@ -25,7 +25,7 @@ export default {
         if (!node.data.staticClass) {
           node.data.staticClass = 'mdc-toolbar__menu-icon'
         } else if (!node.data.staticClass.includes('mdc-toolbar__menu-icon')) {
-          node.data.staticClass = 'mdc-toolbar__menu-icon'
+          node.data.staticClass += ' mdc-toolbar__menu-icon'
         }
       })
     }
