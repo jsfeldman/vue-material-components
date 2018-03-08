@@ -70,7 +70,5 @@ export default {
 </script>
 
 <style lang="scss">
-// Need to fix this so that it can import variables since right now the padding is off because
-// it doesn't have access to mdc-toolbar-element-section-padding
 @import "@material/toolbar/mdc-toolbar";
 </style>
